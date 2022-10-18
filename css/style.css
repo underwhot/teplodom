@@ -453,14 +453,6 @@ body::after {
   width: 100%;
   z-index: 50;
   background-color: #fff;
-  opacity: 0;
-}
-
-.header._watcher-view {
-  -webkit-transition: all 1s ease 1.2s;
-  -o-transition: all 1s ease 1.2s;
-  transition: all 1s ease 1.2s;
-  opacity: 1;
 }
 
 .header::before {
@@ -491,6 +483,14 @@ body::after {
           align-items: center;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+  opacity: 0;
+}
+
+._watcher-view .header__container {
+  -webkit-transition: all 1s ease 1.2s;
+  -o-transition: all 1s ease 1.2s;
+  transition: all 1s ease 1.2s;
+  opacity: 1;
 }
 
 .header__logo {
