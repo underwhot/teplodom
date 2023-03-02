@@ -1900,20 +1900,16 @@ body::after {
   border-bottom: 2px solid #f0f2f4;
 }
 
-.no-webp .contact__address{
-  background: url("../img/contacts/01.png") 0 0/30px 30px no-repeat; }
-
 .contact__address {
   width: 100%;
   padding-left: 2.8125rem;
+  background: url("../img/contacts/01.png") 0 0/30px 30px no-repeat;
 }
-
-.no-webp .contact__phones{
-  background: url("../img/contacts/02.png") 0 0/30px 30px no-repeat; }
 
 .contact__phones {
   width: 100%;
   padding-left: 2.8125rem;
+  background: url("../img/contacts/02.png") 0 0/30px 30px no-repeat;
 }
 
 .contact__name {
@@ -3217,7 +3213,3 @@ body::after {
     color: #FE952A;
   }
 }
-
-.webp .contact__address{ background: url(../img/contacts/01.webp) 0 0/30px 30px no-repeat; }
-
-.webp .contact__phones{ background: url(../img/contacts/02.webp) 0 0/30px 30px no-repeat; }
